@@ -98,7 +98,7 @@ if(use_pretrained_weights):
     model.load_weights('weights.weights.h5')
 else:
     # train model
-    model.fit(x_train, y_train, epochs=2, batch_size=32, validation_data=(x_val, y_val), callbacks=[callback])
+    model.fit(x_train, y_train, epochs=100, batch_size=32, validation_data=(x_val, y_val), callbacks=[callback])
     model.save_weights('weights.weights.h5')
 
 
