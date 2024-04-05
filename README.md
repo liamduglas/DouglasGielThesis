@@ -22,3 +22,25 @@ Images of other specifications (e.g. year, threshold, resolution, source) can be
 
 To run the model, you can use either our pre-trained `weights.weights.h5` folder or generate your own weights. 
 
+## Outputs
+
+After training our model on ASU's SOL supercomputer using the following hyperparamters:
+
+<p align="center">
+<img width="202" alt="Screenshot 2024-04-05 at 3 44 26 PM" src="https://github.com/liamduglas/DouglasGielThesis/assets/126018139/94243546-6854-43e5-b0de-310ab5a9b90b">
+</p>
+
+We obtained the following metrics:
+
+<p align="center">
+<img width="179" alt="Screenshot 2024-04-05 at 3 45 24 PM" src="https://github.com/liamduglas/DouglasGielThesis/assets/126018139/4c40071a-4e05-4a5a-b5b7-0604f3f23a90">
+</p>
+
+
+Example outputted binary masks be seen in the below figure, where the leftmost image is the input, the center-left image is the ground-truth, the center-right image is the outputted binary mask, and the rightmost image is a map of false-positives (red) and false-negatives (blue).
+
+<p align="center">
+<img width="434" alt="Screenshot 2024-04-05 at 3 42 10 PM" src="https://github.com/liamduglas/DouglasGielThesis/assets/126018139/e0e0dafe-a2c8-4602-8137-ae42d26aaf42">
+</p>
+
+
