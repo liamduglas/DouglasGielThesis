@@ -9,6 +9,8 @@ import Data_Driver as dd
 from PlotLearning import PlotLearning
 import matplotlib
 
+use_pretrained_weights = False
+
 callback = [PlotLearning()]
 
 x = dd.images_x
@@ -91,12 +93,14 @@ x_train, x_val, y_train, y_val = train_test_split(x_train, y_train, test_size=1/
 print(y_train.shape)
 print(x_train.shape)
 
+if(use_pretrained_weights):
+    # use pretrained weights
+    model.load_weights('weights.weights.h5')
+else:
+    # train model
+    model.fit(x_train, y_train, epochs=2, batch_size=32, validation_data=(x_val, y_val), callbacks=[callback])
+    model.save_weights('weights.weights.h5')
 
-# train model
-model.fit(x_train, y_train, epochs=2, batch_size=32, validation_data=(x_val, y_val), callbacks=[callback])
-model.save_weights('weights.weights.h5')
-
-# model.load_weights('weights.weights.h5')
 
 # obtain predictions
 y_pred = model.predict(x_test)
