@@ -30,8 +30,13 @@ After training our model on ASU's SOL supercomputer using the following hyperpar
 <img width="202" alt="Screenshot 2024-04-05 at 3 44 26 PM" src="https://github.com/liamduglas/DouglasGielThesis/assets/126018139/94243546-6854-43e5-b0de-310ab5a9b90b">
 </p>
 
-We obtained the following metrics:
+We obtained the following accuracy and validation (per-epoch):
 
+<p align="center">
+<img width="513" alt="Screenshot 2024-04-05 at 3 55 05 PM" src="https://github.com/liamduglas/DouglasGielThesis/assets/126018139/714c198e-2fb6-4671-baa3-7646b93ede8b">
+</p>
+
+And overall metrics as follows:
 <p align="center">
 <img width="179" alt="Screenshot 2024-04-05 at 3 45 24 PM" src="https://github.com/liamduglas/DouglasGielThesis/assets/126018139/4c40071a-4e05-4a5a-b5b7-0604f3f23a90">
 </p>
