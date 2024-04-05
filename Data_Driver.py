@@ -5,9 +5,9 @@ import os.path
 
 all_img_patches = []
 
-# grab all sat images into set
+# grab all landsat images into set
 images = []
-images_path = '250_epoch_500_img_run/landsat_images_year_2022_res_60_vis_ee' #'BigData/landsat_images_year_2020_res_60'
+images_path = 'Images/inputs' 
 valid_images = [".tif"]
 
 for f in sorted(os.listdir(images_path)):
@@ -25,9 +25,9 @@ for f in sorted(os.listdir(images_path)):
 
 images_x = np.array(images)
 
-# grab all sat images into set
+# grab all GFC images into set
 images = []
-images_path = '250_epoch_500_img_run/hansen_images_year_2020_res_60_thresh_80'
+images_path = 'Images/masks'
 valid_images = [".tif"]
 for f in sorted(os.listdir(images_path)):
     ext = os.path.splitext(f)[1]
