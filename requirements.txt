@@ -1,0 +1,11 @@
+tensorflow
+tf-keras
+tifffile
+matplotlib
+scikit-learn
+graphviz
+patchify
+imagecodecs
+IPython
+numpy
+earthengine-api
