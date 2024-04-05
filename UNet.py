@@ -10,6 +10,7 @@ from PlotLearning import PlotLearning
 import matplotlib
 
 use_pretrained_weights = False
+show_images = False
 
 callback = [PlotLearning()]
 
@@ -117,7 +118,6 @@ for k in range(0, dims[0]):
 
 
 # display images
-show_images = False
 if show_images:
     cmap = matplotlib.colors.ListedColormap(['green', 'white'])
     for i in range(0, int(20)):
