@@ -24,7 +24,7 @@ To run the model, you can use either our pre-trained `weights.weights.h5` folder
 
 ## Outputs
 
-After training our model on ASU's SOL supercomputer using the following hyperparamters:
+After training our model on ASU's SOL supercomputer using the following hyperparameters:
 
 <p align="center">
 <img width="202" alt="Screenshot 2024-04-05 at 3 44 26 PM" src="https://github.com/liamduglas/DouglasGielThesis/assets/126018139/94243546-6854-43e5-b0de-310ab5a9b90b">
